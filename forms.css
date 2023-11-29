@@ -1,0 +1,54 @@
+label {
+	display: block;
+    align-items: center;
+}
+body {
+    background: #121212;
+    padding: 10px; 
+}
+input {
+    width: 300px; 
+    height: 25px;
+    background: #f3f5ff;
+    gap: 10px; 
+    border-radius: 1.5rem;
+}
+form {
+    background: #121212;
+    font-family: Ubuntu, sans-serif; 
+} 
+.error {
+	width: flex;
+	padding: 10px;
+	border: 1px solid gray;
+	position: absolute;
+	left: 150px;
+	box-shadow: 3px 3px 3px #999999;
+	border-radius: 7px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
+input[type='submit'] {
+    width: 80px;
+    height: 30px;
+    margin: center;
+    font-family: Ubuntu; 
+    font-size: 16px;
+    border-image: url("blueButton.png") 0 14 0 14 stretch;
+    } 
+input:required {
+  /* insert your own style to indicate a required form input */
+  border-color: red;
+  border-width: 5px; 
+}
+
+input:invalid {
+  /* insert your own styles for invalid form input */
+  border-color: red;
+}
+
+input:valid {
+  /* insert your own styles for valid form input */
+  border-color: green; 
+  border-width: 5px; 
+}
